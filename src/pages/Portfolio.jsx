@@ -13,7 +13,7 @@ const Portfolio = () => {
 
         <section className={PortfolioStyle["article-item"]}>
           <h3 className={PortfolioStyle["title-3"]}>
-            Portfolio Mini
+                   Forest Travel
           </h3>
 
           <div className={PortfolioStyle["article-item-image"]}>
