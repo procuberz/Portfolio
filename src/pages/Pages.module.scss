@@ -46,10 +46,15 @@
 }
 
 .article-item-image {
-    height: (100vh / 2);
+    height: (100vh / 3);
+    overflow: hidden;
 }
 
-
+.article{
+    & > * + *{
+        margin-top: 30px;
+    }
+}
 
 .article-item-link {
     color: #235e91;

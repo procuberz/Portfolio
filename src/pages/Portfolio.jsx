@@ -16,7 +16,7 @@ const Portfolio = () => {
                    Forest Travel
           </h3>
 
-          <div className={PortfolioStyle["article-item-images"]}>
+          <div className={PortfolioStyle["article-item-image"]}>
             <img src={Project} alt="Portfolio Image" />
           </div>
 
