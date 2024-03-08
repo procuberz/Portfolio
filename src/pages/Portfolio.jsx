@@ -12,19 +12,19 @@ const Portfolio = () => {
 
         <section className={PortfolioStyle["article-item"]}>
           <h3 className={PortfolioStyle["title-3"]}>
-            Верстка макета Форест Тревел
+            Portfolio Mini
           </h3>
 
           <div className={PortfolioStyle["article-item-image"]}>
-            <img src="" alt="Верстка макета Форест Тревел" />
+            <img src="" alt="Portfolio Image" />
           </div>
 
           <p className={PortfolioStyle["article-item-text"]}>
-            Верстка многостраничного сайта для турагентства.
+            Portfolio desc
           </p>
 
           <a
-            href="#"
+            href="https://procuberz.github.io/portfolio"
             target='_blank'
             className={PortfolioStyle["article-item-link"]}
           >
