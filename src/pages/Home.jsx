@@ -15,12 +15,12 @@ const Home = () => {
           </p>
 
           <p>
-          I studied web development and website creation independently and on courses from WebCademy. During this time, I have completed several projects in web development and turnkey website creation. You can find them in my portfolio.{' '}
+          I studied web development and website creation independently and on courses from WebCademy. During this time, I have completed several projects in web development and turnkey website creation. You can find them in my {' '}
             <Link
               to={'/portfolio/portfolio'}
               className={HomeStyle['about-link']}
             >
-              портфолио.
+             Portfolio
             </Link>
           </p>
         </div>

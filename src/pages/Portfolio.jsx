@@ -8,7 +8,7 @@ const Portfolio = () => {
       <article className={PortfolioStyle["article"]}>
 
         <h2 className={PortfolioStyle["title-2"]}>
-          Мои работы
+        My Projects
         </h2>
 
         <section className={PortfolioStyle["article-item"]}>
@@ -16,7 +16,7 @@ const Portfolio = () => {
                    Forest Travel
           </h3>
 
-          <div className={PortfolioStyle["article-item-image"]}>
+          <div className={PortfolioStyle["article-item-images"]}>
             <img src={Project} alt="Portfolio Image" />
           </div>
 
