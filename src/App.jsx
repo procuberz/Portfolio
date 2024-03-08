@@ -15,7 +15,7 @@ const App = () => {
         </h1>
 
         <p className={AppStyle['subtitle']}>
-          Hello everyone, I am a professional freelance layout designer. love
+          Hello everyone, I am a professional freelance layout designer, who loves
           creation websites and web development.
         </p>
 

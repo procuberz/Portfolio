@@ -21,7 +21,8 @@ const Portfolio = () => {
           </div>
 
           <p className={PortfolioStyle["article-item-text"]}>
-            Portfolio desc
+            Forest Travel designed to provide travel services.
+            It adapted only for PC and Desktops.
           </p>
 
           <a

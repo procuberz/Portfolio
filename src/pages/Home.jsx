@@ -23,6 +23,8 @@ const Home = () => {
              Portfolio
             </Link>
           </p>
+
+          <p><b>Also i speak English, Russian and Uzbek fluently</b></p>
         </div>
 
         <div className={HomeStyle['about-image']}>
@@ -47,6 +49,8 @@ Within a week of delivering the finalized website development files, I offer a g
           <p>
           It is convenient to work with me, and it is important to me that the client is satisfied!
           </p>
+
+        
         </div>
       </section>
     </div>

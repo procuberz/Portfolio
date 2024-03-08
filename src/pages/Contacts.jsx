@@ -16,7 +16,7 @@ const Contacts = () => {
 
         <ul className={ContactStyle['contact-list']}>
           <li>
-            <a href="#!" target="_blank">
+            <a href="https://www.instagram.com/nurmukhammad_000?igsh=YzljYTk1ODg3Zg==" target="_blank">
               Instagram
             </a>
           </li>
