@@ -1,5 +1,6 @@
 import React from 'react'
 import PortfolioStyle from "./Pages.module.scss";
+import Project from "./../images/photo_2024-03-08_19-47-07.jpg"
 
 const Portfolio = () => {
   return (
@@ -16,7 +17,7 @@ const Portfolio = () => {
           </h3>
 
           <div className={PortfolioStyle["article-item-image"]}>
-            <img src="" alt="Portfolio Image" />
+            <img src={Project} alt="Portfolio Image" />
           </div>
 
           <p className={PortfolioStyle["article-item-text"]}>
@@ -28,7 +29,7 @@ const Portfolio = () => {
             target='_blank'
             className={PortfolioStyle["article-item-link"]}
           >
-            Смотреть работу
+          See project
           </a>
         </section>
 

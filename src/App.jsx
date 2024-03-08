@@ -11,19 +11,19 @@ const App = () => {
     <Fragment>
       <header className={AppStyle['header']}>
         <h1 className={AppStyle['title-1']}>
-          Nurmuhammad - фрилансер, веб-разработчик
+          Nurmuhammad - freelancer, web-developer
         </h1>
 
         <p className={AppStyle['subtitle']}>
-          Всем привет я профессиональный фрилансер верстальщик. Люблю создание
-          сайтов и веб-разработку.
+          Hello everyone, I am a professional freelance layout designer. love
+          creation websites and web development.
         </p>
 
         <nav className={AppStyle['header-menu']}>
-          <Link to={'/portfolio'}>Главная</Link>
-          <Link to={'/portfolio/Services'}>Услуги</Link>
-          <Link to={'/portfolio/portfolio'}>Портфолио</Link>
-          <Link to={'/portfolio/Contacts'}>Контакты</Link>
+          <Link to={'/portfolio'}>Home</Link>
+          <Link to={'/portfolio/Services'}>Services</Link>
+          <Link to={'/portfolio/portfolio'}>Portfolio</Link>
+          <Link to={'/portfolio/Contacts'}>Contacts</Link>
         </nav>
       </header>
 

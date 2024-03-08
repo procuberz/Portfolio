@@ -1,25 +1,21 @@
 import React from 'react';
 import HomeStyle from './Pages.module.scss';
 import { Link } from 'react-router-dom';
+import Avatar from './../images/online-certification.jpeg.webp'
 
 const Home = () => {
   return (
     <div>
       <section className={HomeStyle['about']}>
-        <h2 className={HomeStyle['title-2']}>Обо мне</h2>
+        <h2 className={HomeStyle['title-2']}>About Me</h2>
 
         <div className={HomeStyle['about-desc']}>
           <p>
-            Занимаюсь профессиональной версткой сайтов. Люблю когда сайт
-            отображается аккуратно и лаконично, четко соответствует дизайну,
-            откликается на каждое действие пользователя и идеально смотрится на
-            любом мобильном устройстве, будь то телефон или планшет.
+          I am engaged in professional website development. I love it when a website is displayed neatly and concisely, closely matching the design, responsive to every user action, and looks perfect on any mobile device, be it a phone or a tablet. 
           </p>
 
           <p>
-            Верстку и создание сайтов изучал самостоятельно и на курсах от
-            ВебКадеми. За это время сделал несколько проектов по верстке и
-            сайтам под ключ. Найти их вы сможете в моем{' '}
+          I studied web development and website creation independently and on courses from WebCademy. During this time, I have completed several projects in web development and turnkey website creation. You can find them in my portfolio.{' '}
             <Link
               to={'/portfolio/portfolio'}
               className={HomeStyle['about-link']}
@@ -30,33 +26,26 @@ const Home = () => {
         </div>
 
         <div className={HomeStyle['about-image']}>
-          <img src="" alt="Portfolio Image" />
+          <img src={Avatar} alt="Portfolio Image" />
         </div>
 
         <div className={HomeStyle['about-desc']}>
           <p>
-            <b>Гарантия на верстку</b>. В течение недели после передачи архива с
-            готовой версткой я бесплатно и сразу исправляю свои ошибки которые
-            могли быть пропущены при приеме работы и замечены позже.
+            <b>Warranty on Website Development</b>
+
+Within a week of delivering the finalized website development files, I offer a guarantee where I promptly and at no additional cost correct any errors that may have been overlooked during the initial review and discovered later. This ensures that the delivered website meets the desired quality standards and resolves any issues that may arise post-delivery. Just a little extra peace of mind for a smooth and satisfactory website development process!
           </p>
 
-          <p>Вот что сказал клиент после работы со мной:</p>
+          <p>Here's what the client said after working with me:</p>
 
           <blockquote className={HomeStyle['blockqoute']}>
             <i>
-              Nurmuhammad пришел к нам на проект когда мы были на грани провала
-              всех сроков. Наш сайт был сломан и не работал. Клиенты уходили к
-              конкурентам. Получив макет Nurmuhammad оперативно принялся за
-              работу, на следующий день мы уже видели верстку главной страницы,
-              а еще через день у нас была готовая посадочная страница.
-              Nurmuhammad помог также загрузить все на хостинг, настроить коды
-              для сбора статистики с сайта. Благодаря его работе мы успели
-              запустить проект к назначенной дате и сделали хорошие продажи!
+            "I not only completed the task quickly but also the quality of its execution is top-notch. Thanks for the excellent work!"
             </i>
           </blockquote>
 
           <p>
-            Со мной удобно работать и мне важно чтобы клиент остался доволен!
+          It is convenient to work with me, and it is important to me that the client is satisfied!
           </p>
         </div>
       </section>
