@@ -8,14 +8,14 @@ const Services = () => {
         <h2 className={ServiceStyle['title-2']}>My website design services</h2>
 
         <ul className={ServiceStyle['services-list']}>
-          <li>Layout based on layouts from Photoshop or Figm</li>
+          <li>Layout based on layouts from Photoshop or Figma</li>
 
           <li>Mobile, adaptive layout for smartphones and tablets</li>
 
           <li>SEO optimized layout for promotion in search engines</li>
 
           <li>
-            Various JavaScript and jQuery scripts for interactivity on the site.
+            Various JavaScript and React scripts for interactivity on the site.
           </li>
 
           <li>
@@ -36,7 +36,7 @@ const Services = () => {
         </h3>
 
         <ul className={ServiceStyle['services-list']}>
-          <li>HTML5, CSS3, Flexbox, SCSS, JS, jQuery, Gulp</li>
+          <li>HTML5, CSS3, Flexbox, SCSS, JS, React, Gulp, WebPack, GitHub</li>
 
           <li>Neat, logical, thoughtful code</li>
 
