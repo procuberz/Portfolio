@@ -5,19 +5,29 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Portfolio from './pages/Portfolio';
 import Contacts from './pages/Contacts';
+import { TypeAnimation } from 'react-type-animation';
 
 const App = () => {
   return (
     <Fragment>
       <header className={AppStyle['header']}>
-        <h1 className={AppStyle['title-1']}>
-          Nurmuhammad - freelancer, web-developer
-        </h1>
+        <TypeAnimation
+        sequence={[ Nurmuhammad - freelancer, web-developer]}
+        className={AppStyle['title-1']}
+        wrapper="h2"
+       repeat={Infinity}
+       />
+         
 
-        <p className={AppStyle['subtitle']}>
-          Hello everyone, I am a professional freelance layout designer, who loves
-          creation websites and web development.
-        </p>
+        <TypeAnimation
+          sequence={[
+            `Hello everyone, I am a professional freelance layout designer, who loves creation websites and web development.`,
+            1000,
+          ]}
+          className={AppStyle['subtitle']}
+          wrapper="p"
+          repeat={Infinity}
+        />
 
         <nav className={AppStyle['header-menu']}>
           <Link to={'/portfolio'}>Home</Link>

@@ -1,63 +1,42 @@
-%container{
-    max-width: 900px;
-    width: 100%;
-    padding: 40px;
+%container {
+  max-width: 900px;
+  width: 100%;
+  padding: 40px;
 }
 
-.title-1{
-    font-size: 42px;
-    line-height: 1;
-    margin-top: 40px;
-    margin-bottom: 24px;
-    border-right: 4px solid #fd7a00;
- animation: flashing-border 0.5s step-end infinite,
- printed-text 5s steps(39);
+.title-1 {
+  font-size: 42px;
+
+  line-height: 1;
+  margin-top: 40px;
+  margin-bottom: 24px;
 }
 
-@keyframes flashing-border{
-    0%{border-color: #fd7a00;}
-   50%{border-color: transparent;}
-   100%{border-color: #fd7a00;}
-
+.subtitle {
+  background: #f0f8ff;
+  color: #000;
+  @extend %container;
 }
 
-@keyframes printed-text{
-    from{
-        width: 0;
-    }
-}
+.header-menu {
+  background: #496883;
+  color: #fff;
+  margin: 20px 0;
+  @extend %container;
+  padding: 20px 40px;
 
-
-.subtitle{
-    background: #f0f8ff;
-    color: #000;
-    @extend %container;
-    border-right: 4px solid #fd7a00;
-   animation: flashing-border 0.5s step-end infinite,
-   printed-text 5s steps(100);
-    
-   
-}
-
-.header-menu{
-    background: #496883;
-    color: #fff;
-    margin: 20px 0;
-    @extend %container;
-    padding: 20px 40px;
-
-    & > * + *{
-        margin-left: 30px;
-    }
+  & > * + * {
+    margin-left: 30px;
+  }
 }
 
 .main {
-    background: #dcebf0;
-    @extend %container;
+  background: #dcebf0;
+  @extend %container;
 }
 
-.footer{
-    @extend %container;
-    background: #1d3f5e;
-    color: #fff;
+.footer {
+  @extend %container;
+  background: #1d3f5e;
+  color: #fff;
 }
