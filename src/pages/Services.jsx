@@ -8,7 +8,7 @@ const Services = () => {
         <h2 className={ServiceStyle['title-2']}>My website design services</h2>
 
         <ul className={ServiceStyle['services-list']}>
-          <li>Layout based on layouts from Photoshop or Figma</li>
+          <li>Layout based on designes from Photoshop or Figma</li>
 
           <li>Mobile, adaptive layout for smartphones and tablets</li>
 
