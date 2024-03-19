@@ -12,12 +12,11 @@ const App = () => {
     <Fragment>
       <header className={AppStyle['header']}>
         <TypeAnimation
-        sequence={[ Nurmuhammad - freelancer, web-developer]}
-        className={AppStyle['title-1']}
-        wrapper="h2"
-       repeat={Infinity}
-       />
-         
+          sequence={[`Nurmuhammad - freelancer, web - developer`, 1000]}
+          className={AppStyle['title-1']}
+          wrapper="h2"
+          repeat={Infinity}
+        />
 
         <TypeAnimation
           sequence={[
